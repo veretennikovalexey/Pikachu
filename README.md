@@ -1,4 +1,4 @@
-# idle
+# idle shell
 
 import os # Подключаем модуль 
 
