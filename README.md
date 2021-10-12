@@ -1,6 +1,6 @@
 # idle
 
-import os
+import os # Подключаем модуль 
 
 os.chdir( 'c:\\fabius\\idle' )
 
