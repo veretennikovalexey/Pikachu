@@ -2,7 +2,7 @@
 
 import os # Подключаем модуль 
 
-os.chdir( 'c:\\fabius\\idle' )
+ os.chdir( 'c:\\fabius\\idle' )
 
 f = open('workfile', 'w')
                        
