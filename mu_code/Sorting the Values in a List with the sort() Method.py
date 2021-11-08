@@ -16,6 +16,6 @@ print()
 
 spam.sort( key = str.lower )
 print( * spam ) # A a Z z
-print()
+print()         # А а Я я
 
 # https://wiki.python.org/moin/HowTo/Sorting
