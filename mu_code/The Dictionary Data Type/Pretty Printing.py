@@ -8,7 +8,10 @@ for character in message :
 
 pprint.pprint( count )
 
-# print( pprint.pformat( count ) )
+aa = pprint.pformat( count )
+# "{' ': 13,\n ',': 1,\n 'A': 1,\n 'I': 1,\n 'a': 4,\n 'b': 1,\n 'c': 3,\n
+#   'd': 3,\n 'e': 5,\n 'g': 2,\n 'h': 3,\n 'i': 6,\n 'k': 2,\n 'l': 3,\n
+#   'n': 4,\n 'o': 2,\n 'p': 1,\n 'r': 5,\n 's': 3,\n 't': 6,\n 'w': 2,\n 'y': 1}"
 
 # {' ': 13,
 #  ',': 1,
