@@ -18,7 +18,7 @@ print( type( spam.items() ) ) # <class 'dict_items'>
 for item in spam.items() :
   print( item )
 # ( 'color', 'red' )
-# ( 'age'  ,    42 )
+# ( 'age'  ,   42 )
 
 print( type( item ) ) # <class 'tuple'>
 
