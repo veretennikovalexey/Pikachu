@@ -1,0 +1,1 @@
+{ '1h': 'bking', '6c': 'qwueen', '2g': 'bbishop', '5h': 'bqueen', '3e': 'wking' }
