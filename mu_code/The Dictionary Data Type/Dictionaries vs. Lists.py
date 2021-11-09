@@ -5,6 +5,8 @@ print( spam == bacon ) # False
 eggs = { 'name': 'Zophie', 'species': 'cat', 'age': '8' }
 ham = { 'species': 'cat', 'age': '8' , 'name': 'Zophie' }
 print( eggs == ham ) # True
+print( list( eggs ) ) # ['name', 'species', 'age']
+print( list( ham ) )  # ['species', 'age', 'name']
 
 birthdays = { 'Alice': 'Apr 1', 'Bob': 'Dec 12', 'Carol': 'Mar 4' }
 while True :
