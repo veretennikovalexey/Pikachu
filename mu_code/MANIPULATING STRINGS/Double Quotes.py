@@ -7,7 +7,7 @@ print( chr( ord( 's' ) ) ) # s
 print( chr( ord( 's' ) + 1 ) ) # t
 
 print( ord( 'A' ) < ord( 'B' ) ) # True
-print( ord( 'А' ) ) # 1040 - это русска буква А
+print( ord( 'А' ) ) # 1040 - это русская буква А
 print( ord( 'Я' ) ) # 1071
 print( ord( 'B' ) ) # 66
 
