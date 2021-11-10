@@ -1,0 +1,2 @@
+python mclip.py %*
+pause
