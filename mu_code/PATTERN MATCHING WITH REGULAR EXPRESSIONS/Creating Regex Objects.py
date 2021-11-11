@@ -9,7 +9,7 @@ print( 'Phone number found: ' + mo.group() )
 using regular expression ( regex ) in Python
 
 1. Import the regex module with import re
-2. Create a regex object with re.compile() function
+2. Create a regex object with re.compile() function ( use raw string like r'' )
 3. Pass the string you want to search into the regex object's search() method
    This return a Match object
 4. Call the Match object's group() method to return a string of actual matched text
