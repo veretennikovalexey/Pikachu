@@ -22,3 +22,7 @@ print( mo1.group() ) # Бэтмен
 
 mo2 = batRegex.search( 'Мой героиня - Бэтвумен' )
 print( mo2.group() ) # Бэтвумен
+
+batRegex = re.compile( r'[Бэт(ву)]?мен' )
+mo3 = batRegex.search( 'Как дела мен? Всё хорошо?' )
+print( mo3.group() ) # мен
