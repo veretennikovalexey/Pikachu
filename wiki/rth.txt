@@ -1,0 +1,5 @@
+RTH - это документ из справочника R169, таблица DOCS
+
+Отгрузка продукции
+sql := [ select kanal2, sum( amnt ) from docs] + ret_f_ext() + [ where kinddoc = 'RTH' and lvlnum = '3' and ;
+  cattr10 <> 'Д' and amnt <> 0 and krefl2 = 'R11 ' and kanal2 > 0 group by kanal2 ] // rth3
