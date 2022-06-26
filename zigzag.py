@@ -12,7 +12,7 @@ try :
         indentIncreasing = False
     else :
       indent = indent - 1
-      if indent == 20 :
+      if indent == 0 :
         indentIncreasing = True
 except KeyboardInterrupt :
   sys.exit()
