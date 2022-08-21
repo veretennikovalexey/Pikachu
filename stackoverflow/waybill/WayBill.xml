@@ -1,0 +1,245 @@
+<ns:Documents xmlns:c="http://fsrar.ru/WEGAIS/Common" xmlns:ce="http://fsrar.ru/WEGAIS/CommonV3" xmlns:iab="http://fsrar.ru/WEGAIS/ActInventoryF1F2Info" xmlns:ns="http://fsrar.ru/WEGAIS/WB_DOC_SINGLE_01" xmlns:oref="http://fsrar.ru/WEGAIS/ClientRef_v2" xmlns:pref="http://fsrar.ru/WEGAIS/ProductRef_v2" xmlns:wb="http://fsrar.ru/WEGAIS/TTNSingle_v4" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns:Owner>
+		<ns:FSRAR_ID>030000053907</ns:FSRAR_ID>
+	</ns:Owner>
+	<ns:Document>
+		<ns:WayBill_v4>
+			<wb:Identity>2d6f0981-403b-4282-8855-559726f099be</wb:Identity>
+			<wb:Header>
+				<wb:Type>WBInvoiceFromMe</wb:Type>
+				<wb:NUMBER>32308</wb:NUMBER>
+				<wb:Date>2022-08-18</wb:Date>
+				<wb:ShippingDate>2022-08-18</wb:ShippingDate>
+				<wb:Transport>
+					<wb:ChangeOwnership>IsChange</wb:ChangeOwnership>
+					<wb:TRAN_TYPE>Автомобиль</wb:TRAN_TYPE>
+					<wb:TRANSPORT_TYPE>car</wb:TRANSPORT_TYPE>
+					<wb:TRAN_LOADPOINT>Россия, 302531, ОРЛОВСКАЯ ОБЛАСТЬ, ЛУГОВАЯ УЛИЦА, ОРЛОВСКИЙ РАЙОН, ПЛЕЩЕЕВО СЕЛО, ДОМ 1 ,</wb:TRAN_LOADPOINT>
+					<wb:TRAN_UNLOADPOINT>ООО ТД Орловский каравай, г. Орел,ул. 1 Курская, 53 ( м-н 3)</wb:TRAN_UNLOADPOINT>
+				</wb:Transport>
+				<wb:Shipper>
+					<oref:UL>
+						<oref:ClientRegId>030000053907</oref:ClientRegId>
+						<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ВЫБОР"</oref:FullName>
+						<oref:ShortName>ООО "ВЫБОР"</oref:ShortName>
+						<oref:INN>5752039194</oref:INN>
+						<oref:KPP>572001001</oref:KPP>
+						<oref:address>
+							<oref:Country>643</oref:Country>
+							<oref:RegionCode>57</oref:RegionCode>
+							<oref:description>Россия, 302531, ОРЛОВСКАЯ ОБЛАСТЬ, ЛУГОВАЯ УЛИЦА, ОРЛОВСКИЙ РАЙОН, ПЛЕЩЕЕВО СЕЛО, ДОМ 1 ,</oref:description>
+						</oref:address>
+					</oref:UL>
+				</wb:Shipper>
+				<wb:Consignee>
+					<oref:UL>
+						<oref:ClientRegId>020000113498</oref:ClientRegId>
+						<oref:FullName>Общество с ограниченной ответственностью "Торговый дом Орловский каравай"</oref:FullName>
+						<oref:ShortName>ООО "ТД Орловский каравай"</oref:ShortName>
+						<oref:INN>5753032850</oref:INN>
+						<oref:KPP>575145001</oref:KPP>
+						<oref:address>
+							<oref:Country>643</oref:Country>
+							<oref:RegionCode>57</oref:RegionCode>
+							<oref:description>Орловская обл, , Орел г, , Курская 1-я ул, 53,,</oref:description>
+						</oref:address>
+					</oref:UL>
+				</wb:Consignee>
+			</wb:Header>
+			<wb:Content>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое пастеризованное «ХОЛЬСТЕН ПРЕМИУМ»</pref:FullName>
+						<pref:ShortName>Пиво светлое пастеризованное «ХОЛЬСТЕН ПРЕМИУМ»</pref:ShortName>
+						<pref:AlcCode>0300000000190000012</pref:AlcCode>
+						<pref:Capacity>0.45</pref:Capacity>
+						<pref:AlcVolume>4.8</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000019</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>710443001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>71</oref:RegionCode>
+									<oref:description>300036, РОССИЯ, , , Г ТУЛА,  , Ш ОДОЕВСКОЕ, 85, ,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>10</wb:Quantity>
+					<wb:Price>51.22</wb:Price>
+					<wb:Identity>1</wb:Identity>
+					<wb:FARegId>FA-000000049414073</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005100138355</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое пастеризованное «АРСЕНАЛЬНОЕ КРЕПКОЕ СПЕЦИАЛЬНОЕ»</pref:FullName>
+						<pref:ShortName>Пиво светлое пастеризованное «АРСЕНАЛЬНОЕ КРЕПКОЕ СПЕЦИАЛЬНОЕ»</pref:ShortName>
+						<pref:AlcCode>0300000000190000122</pref:AlcCode>
+						<pref:Capacity>1.25</pref:Capacity>
+						<pref:AlcVolume>7</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000019</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>710443001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>71</oref:RegionCode>
+									<oref:description>300036, РОССИЯ, , , Г ТУЛА,  , Ш ОДОЕВСКОЕ, 85, ,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>9</wb:Quantity>
+					<wb:Price>110.81</wb:Price>
+					<wb:Identity>2</wb:Identity>
+					<wb:FARegId>FA-000000049329733</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005073444786</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое, пастеризованное "Балтика Кулер светлое" ПЭТ, Тула</pref:FullName>
+						<pref:ShortName>Пиво светлое, пастеризованное "Балтика Кулер светлое" ПЭТ, Тула</pref:ShortName>
+						<pref:AlcCode>0037129000002179517</pref:AlcCode>
+						<pref:Capacity>1.33</pref:Capacity>
+						<pref:AlcVolume>4.7</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000019</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>710443001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>71</oref:RegionCode>
+									<oref:description>300036, РОССИЯ, , , Г ТУЛА,  , Ш ОДОЕВСКОЕ, 85, ,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>9</wb:Quantity>
+					<wb:Price>111.26</wb:Price>
+					<wb:Identity>3</wb:Identity>
+					<wb:FARegId>FA-000000049359386</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005090343257</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое пастеризованное «БАЛТИКА ЭКСПОРТНОЕ ПРЕМИУМ» №7</pref:FullName>
+						<pref:ShortName>Пиво светлое пастеризованное «БАЛТИКА ЭКСПОРТНОЕ ПРЕМИУМ» №7</pref:ShortName>
+						<pref:AlcCode>0300000000190000042</pref:AlcCode>
+						<pref:Capacity>0.45</pref:Capacity>
+						<pref:AlcVolume>5.4</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000019</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>710443001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>71</oref:RegionCode>
+									<oref:description>300036, РОССИЯ, , , Г ТУЛА,  , Ш ОДОЕВСКОЕ, 85, ,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>24</wb:Quantity>
+					<wb:Price>56.58</wb:Price>
+					<wb:Identity>4</wb:Identity>
+					<wb:FARegId>FA-000000049380746</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005081223086</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое пастеризованное «Дон Южный рецепт»</pref:FullName>
+						<pref:ShortName>Пиво светлое пастеризованное «Дон Южный рецепт»</pref:ShortName>
+						<pref:AlcCode>0300000000380000120</pref:AlcCode>
+						<pref:Capacity>0.45</pref:Capacity>
+						<pref:AlcVolume>4.6</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000038</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>760443001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>76</oref:RegionCode>
+									<oref:description>150030,РОССИЯ,ЯРОСЛАВСКАЯ ОБЛ,,ЯРОСЛАВЛЬ Г,,ПОЖАРСКОГО УЛ,63,,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>12</wb:Quantity>
+					<wb:Price>56.47</wb:Price>
+					<wb:Identity>5</wb:Identity>
+					<wb:FARegId>FA-000000049205525</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005043138300</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+				<wb:Position>
+					<wb:Product>
+						<pref:UnitType>Packed</pref:UnitType>
+						<pref:FullName>Пиво светлое пастеризованное «Дон Южный рецепт»</pref:FullName>
+						<pref:ShortName>Пиво светлое пастеризованное «Дон Южный рецепт»</pref:ShortName>
+						<pref:AlcCode>0300000000420000010</pref:AlcCode>
+						<pref:Capacity>0.45</pref:Capacity>
+						<pref:AlcVolume>4.6</pref:AlcVolume>
+						<pref:Producer>
+							<oref:UL>
+								<oref:ClientRegId>030000000042</oref:ClientRegId>
+								<oref:FullName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:FullName>
+								<oref:ShortName>ООО "ПИВОВАРЕННАЯ КОМПАНИЯ "БАЛТИКА"</oref:ShortName>
+								<oref:INN>7802849641</oref:INN>
+								<oref:KPP>366543001</oref:KPP>
+								<oref:address>
+									<oref:Country>643</oref:Country>
+									<oref:RegionCode>36</oref:RegionCode>
+									<oref:description>394019, РОССИЯ, , , Г ВОРОНЕЖ, , УЛ 9 ЯНВАРЯ, 109, ,</oref:description>
+								</oref:address>
+							</oref:UL>
+						</pref:Producer>
+						<pref:ProductVCode>500</pref:ProductVCode>
+					</wb:Product>
+					<wb:Quantity>20</wb:Quantity>
+					<wb:Price>56.47</wb:Price>
+					<wb:Identity>6</wb:Identity>
+					<wb:FARegId>FA-000000049296390</wb:FARegId>
+					<wb:InformF2>
+						<ce:F2RegId>FB-000005073444783</ce:F2RegId>
+					</wb:InformF2>
+				</wb:Position>
+			</wb:Content>
+		</ns:WayBill_v4>
+	</ns:Document>
+</ns:Documents>
